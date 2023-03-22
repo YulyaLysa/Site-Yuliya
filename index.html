@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Literata:ital,wght@1,500&family=Lobster&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Literata:ital,wght@1,500&family=Lobster&family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Literata:ital,wght@1,500&family=Lobster&family=Pacifico&family=Rampart+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Literata:ital,wght@1,500&family=Lobster&family=Pacifico&family=Pattaya&family=Rampart+One&display=swap');
+
+
+
+ 
+		header{
+			height: 200px;
+			background-color: azure;
+		}
+		#menu{
+			width: 20%;
+			height: 900px;
+			background-color: lightskyblue;
+			float: left;
+			clear: both;
+		}
+		#content{
+			width: 80%;
+			height: 900px;
+			background-image: url(image/3.jpg);
+			background-size: contain;
+			float: left;
+
+
+		}
+		footer{
+			height: 130px;
+			background-color: deepskyblue;
+			clear: both;
+
+
+		}
+		h2{
+			text-align: center;
+			font-family: Lobster;
+			font-size: 40px;
+			text-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; 
+		}
+		.bgvideo{
+			width: 100%;
+			height: 100%;
+			position: relative;
+			display: flex;
+           justify-content: center;
+           align-items: center;
+		}
+		.bgvideo video{
+		    width: 100%;
+			height: 100%;
+			position: relative;	
+			position: absolute;
+			top: 0;
+			left:0;
+			object-fit: cover;
+			z-index: 1;
+
+		}
+		.textvideo{
+			z-index: 2;
+			color: lightskyblue;
+		}
+		.button-1{
+			background-color:coral;
+            color: black;
+            padding: 20px 40px;
+            border: solid;
+            border-width: 4px;
+            border-color: brown;
+            border-radius: 20px;
+            cursor: pointer;
+            margin: 20px;
+            font-size: 20px;
+            font-family: Rampart One;
+
+		}
+		p{
+			font-family: Literata;
+			font-size: 20px;
+			text-align: justify;
+
+		}
+		.box{
+			border-radius: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            border-color: pink;
+            border-width: 10px;
+		}
+		.box1{
+			border-radius: 60px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            border-color: lightskyblue;
+            border-width: 5px;
+		}
+		img{
+			border: solid; 
+			border-color: royalblue;
+			border-width: 10px;
+			border-radius: 20px;
+		}
+		a{
+			color: white;
+			font-family: Pattaya;
+		}
+
+
+
+		
+		
+	</style>
+	<title>Мій сайт</title>
+</head>
+<body>
+	<header>
+
+	<div class="bgvideo">
+		<video src="video/1.mp4" type="video/mp.4" autoplay muted loop></video>
+		<h1 class="textvideo"><h1>Сайт Юлії</h1></header>
+	</div>	
+
+		
+	<div id="menu">
+		<h2>Мої роботи</h2>
+
+		<a href="works/Ukraine.html" target="blank">
+		<button class="button-1" role="button">Ukraine</button>
+		</a>
+		<a href="works/Kyiv.html" target="blank">
+		<button class="button-1" role="button">Kyiv</button>
+		</a>
+		<a href="works/Egypt.html">
+		<button class="button-1" role="button">Egypt</button>	
+		</a>
+		<p>
+		<img src="image/2.jpg" align="center" width="60%" hspace="5px" vspace="5px" >
+		</p>
+
+
+		
+	</div>
+	<div id="content">
+		<h2>Про мене</h2>
+		<img src="image/1.jpg" align="left" width="20%" hspace="5px" vspace="5px" class="box">
+		<p>Я студентка коледжу і навчаюся за спеціальністю "Комп'ютерна інженерія". Хоч я і на заочному відділенні, намагаюся писати веб-сторінки, вивчаю мови програмування. Це дуже захопливо, коли після тривалої роботи , ти отримуєш результат. Це  дуже мотивує!</p>
+		<h3 style="text-align: center; font-size: 40px;font-family: Pacifico; color: darkbrown; text-shadow: #FC0 1px 0 10px;"> Мої хобі</h3>
+		<p>Хобі — це найкраще проведення часу. Це коли певна справа по-справжньому тобі подобається, коли ти нею живеш і готовий безперестанку розповідати про свої та чужі досягнення в цій сфері.
+		<p>Я хочу трохи розповісти про свою улюблену справу, але, по правді сказати, у мене їх декілька. Мені шалено подобається готувати й створювати нові смачні страви для себе та близьких. Відбувається це так: я переглядаю цікаві рецепти в інтернеті. Обираю той, що мені до вподоби, та починаю творити. Також у вільний час полюбляю розмальовувати картини по номерах, це заспокоює і надихає, додає настрою.</p>
+		<p>Також я дуже люблю подорожувати. Зі своєю родиною я побувала в Туреччині, Єгипті, а також в багатьох куточках нашої мальовничої України. Подобаються краєвиди західної України, а з інших країн - мені до вподоби культура Єгипту.
+			<img src="image/7.jpg" align="right" width="20%" hspace="5px" vspace="5px" class="box1" >
+		</p>
+		<p style="text-align: left; font-size: 22px; color: black;">
+		<a href="image/5.jpg">Гарне фото з "кораблями пустелі"</a>
+		<a href="image/6.jpg">Водоспад Пробій, Яремче, Західна Україна</a>
+		</p>
+		<iframe width="337" height="253" src="https://www.youtube.com/embed/TJFVKjL0k18" title="Цікаві факти про Єгипет" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<video src="video/My video.MP4" controls width="500"></video>
+		
+	</div>
+	<footer><h2 style="text-align: right;font-size: 30px;" >Мої контакти</h2>
+		<p style="text-align :right ;color: black;font-size: 30px">
+		<a href="https://www.facebook.com/yulya.lysenko.1">Я у facebook</a>
+		</p>
+
+	</footer>
+
+</body>
+</html>
